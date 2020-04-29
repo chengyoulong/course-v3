@@ -4,7 +4,7 @@ You can click the blue arrow buttons on the left and right panes to hide them an
 
 ## Overview
 
-To follow along with the lessons, you'll need to connect to a cloud GPU provider which has the fastai library installed (recommended; it should take only 5 minutes or so, and cost under $0.50/hour), or set up a computer with a suitable GPU yourself (which can take days to get working if you're not familiar with the process, so we don't recommend it). You'll also need to be familiar with the basics of the *Jupyter Notebook* environment we use for running deep learning experiments. Up to date tutorials and recommendations for these are available from the [course website](https://course.fast.ai).
+To follow along with the lessons, you'll no connect to a cloud GPU provider which has the fastai library installed (recommended; it should take only 5 minutes or so, and cost under $0.50/hour), or set up a computer with a suitable GPU yourself (which can take days to get working if you're not familiar with the process, so we don't recommend it). You'll also need to be familiar with the basics of the *Jupyter Notebook* environment we use for running deep learning experiments. Up to date tutorials and recommendations for these are available from the [course website](https://course.fast.ai).
 
 The key outcome of this lesson is that we'll have trained an image classifier which can recognize pet breeds at state of the art accuracy. The key to this success is the use of *transfer learning*, which will be a key platform for much of this course. We'll also see how to analyze the model to understand its failure modes. In this case, we'll see that the places where the model is making mistakes is in the same areas that even breeding experts can make mistakes.
 
